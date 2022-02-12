@@ -1,0 +1,52 @@
+.font_22{
+    font-size:22px;
+}
+
+.borderR_30{
+    border-radius: 30px!important;
+}
+
+.borderR_20{
+    border-radius: 20px;
+}
+
+.borderR_10{
+    border-radius: 10px;
+}
+
+.shadow_10{
+    box-shadow: 10px 10px 10px black;
+}
+
+.top_shadow_10{
+    box-shadow: 10px -10px 50px black,
+                10px 10px 50px black,
+                -10px 10px 50px black,
+                -10px -10px 50px black;
+}
+
+.shadow_5{
+    box-shadow: 5px 5px 5px black;
+}
+
+body{
+    background: linear-gradient(90deg,black, blue,black)
+}
+
+.fit_width{
+    width: fit-content;
+}
+
+.margin_20{
+    margin-top: 20px;
+}
+
+@keyframes buttonS {
+    0%{background-color:green; transform: scale(1)}
+    50%{background-color:red; transform: scale(1.1)}
+    100%{background-color: green; transform: scale(1)}
+}
+
+button{
+    animation: buttonS 4s ease-in-out infinite;
+}
